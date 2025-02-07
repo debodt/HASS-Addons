@@ -13,4 +13,4 @@ ports:
  map:
   - type: addon_config
     read_only: false
-    path: /config/alexa_shopping_list
+    path: /config
