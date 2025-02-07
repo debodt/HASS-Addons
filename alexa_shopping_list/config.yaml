@@ -12,5 +12,5 @@ ports:
   4000/tcp: 4000
  map:
   - type: addon_config
-    read_only: False
+    read_only: false
     path: /config
