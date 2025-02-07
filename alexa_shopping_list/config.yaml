@@ -10,7 +10,7 @@ image: "madmachinations/ha-alexa-shopping-list-sync"
 startup: "services"
 ports:
   4000/tcp: 4000
-map:
-  data:
-    path: "/config"
-    read_only: false
+ map:
+  - type: addon_config
+    read_only: False
+    path: /config
