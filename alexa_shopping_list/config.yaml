@@ -2,11 +2,11 @@ name: Alexa Shopping List Sync
 version: '2501.022'
 slug: alexa_shopping_list
 description: Alexa Shopping List synchronisation server
-url: "https://github.com/peabody72/home-assistant-alexa-shopping-list"
+url: "https://github.com/madmachinations/home-assistant-alexa-shopping-list"
 arch:
   - aarch64
   - amd64
-image: "peabody72/ha-alexa-shopping-list-sync"
+image: "madmachinations/ha-alexa-shopping-list-sync"
 startup: "services"
 ports:
   4000/tcp: 4000
