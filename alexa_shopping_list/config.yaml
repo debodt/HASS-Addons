@@ -10,7 +10,7 @@ image: "peabody72/ha-alexa-shopping-list-sync"
 startup: "services"
 ports:
   4000/tcp: 4000
- map:
+map:
   - type: addon_config
     read_only: false
     path: /config
