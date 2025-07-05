@@ -1,2 +1,3 @@
 name: DeBodt HASS Add-on Repository
-description: A repository for DeBodt's Home Assistant add-ons.
+url: https://github.com/debodt/HASS-Addons
+maintainer: Robert DeBodt <https://github.com/debodt/>
