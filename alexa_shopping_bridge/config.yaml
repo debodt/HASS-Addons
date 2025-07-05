@@ -1,15 +1,15 @@
 name: Alexa Shopping List Sync
 version: '2502.053'
-slug: alexa_shopping_list
+slug: alexa_shopping_bridge
 description: Alexa Shopping List synchronisation server
-url: "https://github.com/madmachinations/home-assistant-alexa-shopping-list"
+url: "https://github.com/debodt/HASS-Addons"
 arch:
   - aarch64
   - amd64
-image: "madmachinations/ha-alexa-shopping-list-sync"
+image: "debodt/alexa-shopping-bridge-server:latest-arm64"
 startup: "services"
 ports:
-  4000/tcp: 4000
+  8765/tcp: 8765
 map:
   - type: addon_config
     read_only: false
