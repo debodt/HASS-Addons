@@ -1,7 +1,7 @@
-name: Alexa Shopping List Sync
-version: '2502.053'
+name: Alexa Shopping bridge
+version: '0.1.0'
 slug: alexa_shopping_bridge
-description: Alexa Shopping List synchronisation server
+description: Alexa Shopping Bridge
 url: "https://github.com/debodt/HASS-Addons"
 arch:
   - aarch64
