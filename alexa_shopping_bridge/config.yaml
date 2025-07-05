@@ -1,12 +1,14 @@
 name: Alexa Shopping bridge
-version: '0.1.0'
-slug: alexa_shopping_bridge
+version: 'latest'
+slug: alexa_shopping_bridge_server
 description: Alexa Shopping Bridge
-url: "https://github.com/madmachinations/home-assistant-alexa-shopping-list"
+url: "https://github.com/debodt/HASS-Addons/"
 arch:
   - aarch64
   - amd64
-image: "debodt/alexa-shopping-bridge-server:latest-arm64"
+  - armhf
+  - armv7
+image: "debodt/alexa-shopping-bridge-server"
 startup: "services"
 ports:
   8765/tcp: 8765
